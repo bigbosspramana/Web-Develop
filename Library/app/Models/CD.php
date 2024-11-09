@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Journal extends Model
+class CD extends Model
 {
     use HasFactory;
 
@@ -16,9 +16,8 @@ class Journal extends Model
      */
     protected $fillable = [
         'judul',
-        'halaman',
-        'deskripsi',
+        'artis',
+        'genre',
         'tahun_terbit',
-        'penulis',
     ];
 }
