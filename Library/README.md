@@ -29,6 +29,14 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## How to run this file
+1. Nyalakan mySQL dan Apache di XAMPP
+2. Lalu buka terminal VSC atau CMD
+3. Masukkan "php artisan db:seed --class=MoveDataToItemsSeeder" pada terminal.
+4. Lalu jalankan servernya, dengan memasukkan "php artisan serve"
+5. Setelah itu, tahan 'ctrl' pada keyboard lalu klik "http://127.0.0.1:8000" yang merupakan hasil dari menjalankan servernya.
+6. Kemudian, Anda akan diarahkan ke website servernya. Maka akan muncul error, maka dari itu tambahkan URL dengan /items. Seperti berikut ini "http://127.0.0.1:8000/items"
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
